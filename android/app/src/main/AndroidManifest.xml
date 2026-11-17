@@ -34,10 +34,10 @@
             android:name="flutterEmbedding"
             android:value="2" />
 
-        <!-- AdMob ID TESTE — trocar pelo real antes de publicar -->
+        <!-- AdMob App ID real (conta Beggins) -->
         <meta-data
             android:name="com.google.android.gms.ads.APPLICATION_ID"
-            android:value="ca-app-pub-3940256099942544~3347511713" />
+            android:value="ca-app-pub-5880219350817278~6857738061" />
 
         <!-- flutter_local_notifications: reagendar após reboot -->
         <receiver android:exported="false"

@@ -12,8 +12,7 @@ class AdsService with WidgetsBindingObserver {
   AdsService._();
   static final AdsService instance = AdsService._();
 
-  // Trocar p/ false + preencher IDs reais antes de publicar
-  static const bool _useTestAds = true;
+  static const bool _useTestAds = false;
   static const bool _fullScreenAdsEnabled = true;
 
   // IDs de TESTE oficiais do Google
@@ -23,12 +22,12 @@ class AdsService with WidgetsBindingObserver {
   static const _testAppOpen = 'ca-app-pub-3940256099942544/9257395921';
   static const _testNative = 'ca-app-pub-3940256099942544/2247696110';
 
-  // IDs REAIS — Salmo do Dia (preencher depois de criar no AdMob).
-  static const _realBanner = 'ca-app-pub-0000000000000000/0000000001';
-  static const _realInterstitial = 'ca-app-pub-0000000000000000/0000000002';
-  static const _realRewarded = 'ca-app-pub-0000000000000000/0000000003';
-  static const _realAppOpen = 'ca-app-pub-0000000000000000/0000000004';
-  static const _realNative = 'ca-app-pub-0000000000000000/0000000005';
+  // IDs REAIS — Salmo do Dia (AdMob, conta Beggins).
+  static const _realBanner = 'ca-app-pub-5880219350817278/3030173695';
+  static const _realInterstitial = 'ca-app-pub-5880219350817278/4231574727';
+  static const _realRewarded = 'ca-app-pub-5880219350817278/1065134144';
+  static const _realAppOpen = 'ca-app-pub-5880219350817278/6125889135';
+  static const _realNative = 'ca-app-pub-5880219350817278/7438970809';
   static bool _ph(String id) => id.contains('0000000000');
 
   bool _initialized = false;
